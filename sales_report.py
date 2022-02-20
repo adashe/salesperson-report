@@ -41,3 +41,7 @@ for line in f:
 
 for i in range(len(salespeople)):
     print(f'{salespeople[i]} sold {melons_sold[i]} melons')
+
+# TODO create a dictionary out of salespeople and melons
+# This would link each person directly to their sales instead of creating two separate lists
+# Will also automatically eliminate duplicates
